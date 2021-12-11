@@ -2,18 +2,18 @@ body {
     background-color: black;
 }
 
-.main {
-    margin: 1rem 1rem 1rem 1rem;
-}
-
 input {
     background-color: blanchedalmond;
+}
+
+.marquee {
+    align-items: center;
 }
 
 .header {
     color: gold;
     font-family: 'Bungee', cursive;
-    height: 9vh;
+    height: 11vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,12 +30,12 @@ input {
     padding-top: .5rem;
  }
 img {
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
     border-color: gold;
     border-style: double;
-    border-radius: 150px;
-    margin: .5rem;
+    border-radius: 10px;
+    flex-shrink: 3;
 }
 .album-covers {
     display: flex;
@@ -45,10 +45,11 @@ img {
     border-style: double;
     border-radius: 10px;
     padding: 2rem 1rem  1rem 3rem;
-    height:60vh;
+    height:auto;
 }
 .thumbmails {
     flex-direction: column;
+    flex-shrink: 3;
 }
 
 .footer {
